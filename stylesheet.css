@@ -1,0 +1,800 @@
+html{
+    box-sizing: border-box;
+    font-family:'Open Sans',sans-serif;
+}
+*{
+   scroll-behavior: smooth;
+   text-decoration: none;
+
+}
+body{
+    margin:0;
+    padding: 0;
+    min-height: 100vh;
+    width: 100%;
+}
+
+/*-----------------------------navbar------------------------------------------*/
+.nav-container{
+    width: 100%;
+}
+.sim{
+    font-family: 'Baloo Paaji 2', cursive ;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 25px;
+    line-height: 31px;
+    text-align: start;
+    margin-left: 1rem;
+}
+.nav{
+    font-family: 'Baloo Paaji 2', cursive ;
+    font-size: 11px;
+    font-weight: 700;
+    color: #ffffff;
+    text-decoration: none;
+    letter-spacing: 1px;
+    visibility: hidden;
+}
+li{
+    list-style-type:none;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    top: 0;
+    background-color: transparent;
+
+}
+.navlist{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+}
+/*----------------------------------home section----------------------------*/
+.top-container{ 
+    background:no-repeat url(image/header.jpg) center 40%/cover;
+    width:100%;
+    height: 800px;
+    text-align: center;
+}
+.overlayer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    height: 800px;
+    background-image:linear-gradient(to top, #fff 0%, rgba(105, 90, 166, 0.35) 99%, rgba(105, 90, 166, 0.5) 100%);
+    background-image: -webkit-linear-gradient(bottom, #fff 0%, rgba(105, 90, 166, 0.35) 99%, rgba(105, 90, 166, 0.5) 100%);
+}
+
+.title{
+    margin-top:250px;
+    width: 320px;
+    height:300px;
+    padding:0 0;
+    line-height:0px;
+    margin-left: 2rem;
+}
+.up{
+    font-family: 'Baloo Paaji 2', cursive;
+    font-weight:900;
+    font-size:2rem;
+    line-height: 2rem;
+    text-align: start;
+    width:4rem;
+    opacity: 0.5;
+    margin-bottom: 2rem;
+}
+.down{
+    font-family: 'Baloo Paaji 2', cursive;
+    font-weight:900;
+    font-size: 2.5rem;
+    padding:0 0;
+    width:18.6rem;
+    text-align: start;
+    opacity: 0.7;
+    line-height: 0px;
+
+}
+.p{
+    line-height:0;
+    font-family:'Open Sans',sans-serif;
+    font-size:0.9rem;
+    letter-spacing:2px;
+    font-weight:2;
+    padding:0 0;
+    text-align: start;
+    margin-bottom: 0.5rem;
+    opacity: 0.8;
+    letter-spacing: 1px;
+
+}
+.bg{
+    font-family:"Open Sans",sans-serif;
+    font-size:0.8rem;
+    font-weight: 600;
+    color: #ffffff;
+    border:1px double rgb(194, 189, 189);
+    background-color: #695AA6;
+    padding:8px 12px;
+    border-radius: 25px;
+    margin-right:16em;
+    margin-top: 2rem;
+    transition: all .34s;
+    cursor: pointer;
+    width: 7rem;
+    height: 2.5rem;
+}
+.bg:hover,.bg:focus{
+    border-color: #695aa6;
+    box-shadow: 0 0 0 0 1rem rgba(144, 127, 211, 0.25);
+}
+/*-------------------------------about section------------------------------*/
+.second-container{
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    padding: 0 0;
+
+}
+
+.profilesvg{
+    width: 250px;
+    fill: #695aa6;
+    margin-right: -5px;
+    margin-bottom: -10px;
+}
+.profileimg{
+    width: 170px;
+}
+.inner-banner2nd{
+    width:360px;
+    height:400px;
+    align-items: center;
+    text-align: center;
+    margin:5%;
+    letter-spacing: .6px;
+    color: #111;
+    font-weight: 100;
+    padding:0 0;
+    display: inline-block;
+}
+.inner-banner2nd .innerp{
+    margin-bottom: 0.6px;
+    opacity: 0.6;
+    font-weight: 400;
+    padding:0 0;
+}
+.inner-banner2nd .innerh{
+    font-family: 'baloo Paaji 2',cursive;
+    font-weight: 500;
+    width: 200px;
+    color:#695aa6 ;
+    margin-bottom: 0;
+    padding: 0 0;
+    margin-left: 5rem;
+}
+.inner-banner2nd p{
+    font-family: 'Open Sans',sans-serif;
+    line-height: 23px;
+    letter-spacing: 1px;
+}
+.inner-banner2nd .bg-2{
+    font-family:"Open Sans",sans-serif;
+    font-size:15px;
+    font-weight: 600;
+    color:#695aa6;
+    background-color: #fff;
+    border:1px solid #695aa6;
+    border-radius:100px;
+    padding:8px 15px;
+    margin-top:1.6rem;
+    transition: all .34s;
+    cursor: pointer;
+}
+.inner-banner2nd .bg-2:hover,.inner-banner2nd .bg-2:focus{
+    color:#fff;
+    background-color: #695aa6;
+    border:1px solid #695aa6;
+}
+/*---------------------------------- skillset---------------------------------*/
+.third-container{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    align-items:center;
+    padding: 0 0;
+    
+}
+.skill{
+    margin-bottom: 3rem;
+    margin-top:5.5rem ;
+    line-height:1rem;
+}
+.skillh{
+    font-family: 'baloo Paaji 2',cursive;
+    font-weight: 500;
+    color:#695aa6 ;
+    margin-bottom: 0;
+    padding: 0 0;
+    text-align: center;
+}
+.skillp{
+    margin-bottom: 0.6px;
+    opacity: 0.6;
+    font-weight: 400;
+    padding:0 0;
+    text-align: center;
+}
+.skillimg{
+    width: 55px;
+    height: 55px;
+
+    margin-top: 4rem;
+    line-height: 0;
+}
+.skillname{
+    font-family: 'baloo Paaji 2',cursive;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color:#695aa6 ;
+    margin-bottom: 0;
+    padding: 0 0;
+    text-align: center;
+    line-height: 0;
+}
+.ReactJs,.NodeJs,.MongoDB{
+    border:1px double grey;
+    width:300px ;
+    height: 230px;
+    padding: 0 0;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.hiddenlayer{
+    text-align: center;
+    display: none;
+    font-size: 15px;
+    transition:1s;
+    font-weight: 900;
+    width: 300px;
+    height: 200px;
+    letter-spacing: 1px;
+    height: 100px;
+    color: black;
+    font-weight: bolder;
+    font-family:"Open Sans",sans-serif;
+    border-radius: 10px;
+}
+.ReactJs:hover .hiddenlayer{
+    display: inline-block;
+    transform: translatey(-2rem);
+}
+.ReactJs:hover .skillimg{
+    transform: scale(0.8) translatey(-3rem);
+}
+.ReactJs:hover .skillname{
+    transform: translatey(-3rem);
+    margin-top: 10px;
+}
+.NodeJs:hover .hiddenlayer{
+    display: inline-block;
+    transform: translatey(-2rem);
+}
+.NodeJs:hover .skillimg{
+    transform: scale(0.8) translatey(-3rem);
+}
+.NodeJs:hover .skillname{
+    transform: translatey(-3rem);
+    margin-top: 10px;
+}
+.MongoDB:hover .hiddenlayer{
+    display: inline-block;
+    transform: translatey(-2rem);
+}
+.MongoDB:hover .skillimg{
+    transform: scale(0.8) translatey(-3rem);
+}
+.MongoDB:hover .skillname{
+    transform: translatey(-3rem);
+    margin-top: 10px;
+}
+/*-----------------------------hire------------------------------------*/
+.hire-container{
+    width: 100%;
+    height: 200px;
+    margin-top: 5rem;
+    text-align: center;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    background-color: #695aa6;
+
+}
+.hirename{
+    font-family: 'baloo Paaji 2',cursive;
+    font-weight: 900;
+    color:#fff;
+    margin-bottom: 0;
+    padding: 0 0;
+    text-align: center;
+    font-size: 16px;
+    line-height: 19px;
+}
+.hirep{
+    font-family:'Open Sans',sans-serif;
+    font-weight: 100;
+    font-size: 13px;
+    color: #f8f9fa;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+.hirebg{
+    width: 100px;
+    height: 45px;
+    font-family: 'baloo Paaji 2',cursive;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 28px;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.hirebg:hover{
+    border-color: #b4add3;
+    box-shadow: 0 0 0 0 1rem rgba(105, 90, 166, 0.25);
+}
+
+/* ----------------------------projects --------------------------------*/
+.fourth-container{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    align-items:center;
+    padding: 0 0;
+}
+.projects-box{
+    border:1px solid grey;
+    width:300px ;
+    height: 200px;
+    text-align: center;
+    padding: 0 0;
+    transition: 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.projectsa{
+    color: #695aa6;
+}
+.projectsname{
+    font-family: 'baloo Paaji 2',cursive;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color:#695aa6 ;
+    visibility: hidden;
+    margin-bottom: 0;
+    padding: 0 0;
+    line-height: 0;
+}
+.projectsimg{
+    width: 150px;
+    height: 150px;
+}
+.projects-box:hover .projectsimg{
+    transform: scale(0.8) translatey(1rem);
+}
+#candy{
+    width: 150px;
+    height: 150px;
+}
+.projects-box:hover .projectsname{
+    visibility: inherit;
+}
+.projects-box:hover #candy{
+    transform: scale(0.8) translatey(1rem);
+
+}
+/*--------------------------------Cantact---------------------------------*/
+.fifth-container{
+    width: 100%;
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Cantactform{
+    text-align: center;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+}
+.Contactdetail{
+    display: flex;
+    flex-direction: column;
+}
+.name,.Email{
+    width: 300px;
+    height: 36px;
+    margin-bottom: 1rem;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    padding: 6px 12px;
+    outline: 0;
+    background-color: rgba(0, 0, 0, 0.01);
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    
+}
+.message{
+    width: 300px;
+    height:150px;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    padding: 6px 12px;
+    outline: 0;
+    background-color: rgba(0, 0, 0, 0.01); 
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+.cantactbg{
+    width: 140px;
+    height: 36px;
+    border: 1px solid #695aa6;
+    color: #695aa6;
+    background-color: #fff;
+    padding: 0.375rem 0.375rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 7px;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 900;
+    margin:2rem;
+}
+.cantactbg:hover{
+    background: #695aa6;
+    color: #fff;
+}
+.name:hover{
+    color: #495057;
+    background-color: rgba(0, 0, 0, 0.01);
+    border-color: #b4add3;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(105, 90, 166, 0.25);
+}
+.message:hover{
+    color: #495057;
+    background-color: rgba(0, 0, 0, 0.01);
+    border-color: #b4add3;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(105, 90, 166, 0.25);
+}
+.Email:hover{
+    color: #495057;
+    background-color: rgba(0, 0, 0, 0.01);
+    border-color: #b4add3;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(105, 90, 166, 0.25);
+}
+/*---------------------------------------footer-------------------------*/
+.footer-container{
+    background-color: #695aa6;
+    width: 100%;
+    height:150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.gmail{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.gmailicon{
+    width: 25px;
+    height: 25px;
+    margin-top: 5px;
+}
+.footerp{
+    font-family: 'baloo Paaji 2',cursive;
+    font-size: 1rem;
+    width: 180px;
+    height: 30px;
+    color: #f8f9fa;
+    text-align: center;
+    margin-left: 5px;
+
+}.footerh{
+    font-family: 'baloo Paaji 2',cursive;
+    font-weight: 500;
+    color:#fff ;
+    font-size: 0.9rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    letter-spacing: 2px;
+}
+.icons{
+    width: 30px;
+    height: 30px;
+    margin-bottom:-3px;
+}
+.footericons{
+    text-align: center;
+    height: 85px;
+}
+.icons:hover{
+   transform: scale(1.1);
+}
+.vs{
+    color:cyan;
+    font-size: 1rem;
+}
+.vs:hover{
+    transform: scale(1);
+}
+
+/* -----------------------------resposive -------------------------------*/
+@media only screen and (min-width:754px){
+    *{
+        scroll-behavior: smooth;
+    }
+    /*-----------------------------navbar--------------------------------*/
+    .nav-container{
+        text-align: center;
+    }
+    .navlist{
+        justify-content: space-evenly;
+    }
+    .nav{
+        font-size: 1.1rem;
+        visibility: inherit;
+    }
+    .nav:hover{
+        color: #695aa6;
+    }
+    .sim{
+        text-align: center;
+        width: 100%;
+        font-size: 40px;
+        font-weight:900;
+        line-height: 51px;
+    }
+    /*-----------------------------------home----------------------------*/
+    .top-container{
+        width: 100%;
+        height: 900px;
+        text-align: center;
+    }
+    .overlayer{
+        height: 900px;
+    }
+    .title{
+        margin-left: 40%;
+        margin-top: 100px;
+        width:400px;
+        height:550px;
+        text-align: start;
+    }
+    .up{
+        width: 400px;
+        font-size: 80px;
+        font-weight: 700;
+        line-height: 130px;
+        text-align: start;
+        
+    }
+    .down{
+        width: 400px;
+        font-size: 90px;
+        font-weight:900px;
+        line-height: 123px;
+        margin-top: -50px;
+        text-align: start;
+        opacity: 0.6;
+    }
+    .p{
+        width: 400px;
+        font-size: 25px;
+        font-weight: 100;
+        line-height: 44px;
+        margin-top: -5.5rem;
+        letter-spacing: 10px;
+        text-align: start;
+    }
+     .bg{
+        width: 8rem;
+    }
+    /*-------------------------------aboutme-------------------------------------*/
+    .second-container{
+        width: 100%;
+        height: 500px;
+         flex-direction: row;
+         justify-content: center;
+         text-align: start;
+    }
+    .inner-banner2nd{
+        width: 100%;
+        max-width: 600px;
+        max-height: 600px;
+        text-align: start;
+        margin-left: 3rem;
+    }
+    .profilesvg{
+       width: 250px;
+    }
+    .inner-banner2nd .innerh{
+        font-weight: 500;
+        font-size: 40px;
+        margin-left:-1px;
+        line-height: .9;
+
+    }
+    .inner-banner2nd .innerp{
+        font-weight: 400;
+    }
+    .inner-banner2nd .innerp{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    
+    /*---------------------------------skills---------------------------*/
+    .third-container{
+        width: 100%;
+        flex-direction: row;
+        justify-content:center;
+        max-height:250px;
+    }
+    .ReactJs,.NodeJs,.MongoDB{
+        border: 1px solid grey;
+        width:350px ;
+        height: 230px;
+        padding: 0 0;
+        text-align: center;
+        margin-left: 2rem;
+    }
+    .hiddenlayer{
+        width: 350px;
+        height: 230px;
+    }
+    .skillimg{
+        width: 55px;
+        height: 55px;
+        margin-top: 4rem;
+        line-height: 0;
+    }
+    .hiddenlayer{
+        width: 350px;
+        height: 100px;
+    }
+    .skillh{
+        width: 100%;
+        font-weight: 500;
+        font-size: 44px;
+        line-height: 48px;
+        text-align: center;
+        padding:0 0;
+        margin:0;
+        margin-right:34.7rem;
+        line-height: 53px;
+    }
+    .skillp{
+        width: 100%;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 23px;
+
+    }
+    /*--------------------------------projects----------------------*/
+    .fourth-container{
+        flex-direction: row;
+        justify-content:center;
+        max-height:250px;
+    }
+    .projects-box{
+        border: 1px solid grey;
+        width:350px ;
+        height: 230px;
+        text-align: center;
+        padding: 0 0;
+        margin-left: 2rem;
+    }
+    .projectsimg{
+        width: 200px;
+        height: 180px;
+    }
+    /*------------------------hire-----------------------------------*/
+     .hire-container{
+        flex-direction: row;
+        height: 135px;
+     }
+     .hireInner .hirename{
+        font-size: 23px;
+        font-weight: 500;
+        line-height: 28px;
+        text-align: start;
+     }
+     .hireInner .hirep{
+        font-size: 15px;
+        line-height: 25px;
+        font-weight: 400;
+     }
+     .hireInner{
+        margin-right:15rem;
+     }
+     .hirebg{
+        margin-right: 10rem;
+     }
+     /*-----------------------------------cantact----------------------*/
+     .fifth-container{
+        margin-top: -5rem;
+        width:100%;
+        flex-direction: row;
+        height: 500px;
+     }
+    .Contactdetail{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+     .message{
+        width: 635px;
+        border-radius: 5px;
+     }
+     .cantactbg{
+        width: 9rem;
+        height: 40px;
+        font-size: 15px;
+        font-family: 700;
+     }
+     /*-----------------------------------------footer--------------------*/
+     .footer-container{
+        margin-top: 0;
+        height: 200px;
+     }
+     .gmailicon{
+        width:30px;
+        height: 30px;
+        margin-top:10px;
+     }
+     .footerh{
+        font-size: 1rem;
+        margin-bottom: 1rem;
+     }
+     .footerp{
+        width: 270px;
+        font-size: 1.5rem;
+        height: 35px;
+        text-align: center;
+     }
+     .icons{
+        margin-left: 1rem;
+        width: 50px;
+        height: 50px;
+     }
+
+ }
